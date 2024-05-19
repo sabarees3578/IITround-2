@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: aqua;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:#202124;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.heading{
+    
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 10px;
+    color: #000080;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-optical-sizing: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: aqua;
+    border-bottom: black solid;
+}
+.heading_line{
+    
+    padding: 10px;
+    width: 205vh;
+    height: 1px;
+    border-bottom: 1px solid black;
+    
+}
+.box{
+    width: auto;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #202124;
+    
+}
+.box1{
+    padding: 30px;
+    padding-top: 30px;
+    width: 50%;
+    height: 400px;
+    background-color: #202124;
+    border: 2px solid aqua;
+    margin: 10px;
+    border-radius: 50px;
+    color: aqua;
+    font-size: larger;
+}
+a{
+    color: aqua;
+    font-size: 27px;
+    text-decoration: none;
+}
+.box2 {
+        padding: 30px;
+            padding-top: 30px;
+            width: 50%;
+            height: 400px;
+            background-color: #202124;
+            border: 2px solid aqua;
+            margin: 10px;
+            border-radius: 50px;
+            color: aqua;
+            font-size: larger;
+}
+
+.buttom{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    background-color: #00ffff;
+    color: black;
+    border-bottom:1px solid black;
+    flex-direction: column;
+}
+.buttom2{
+        align-items: center;
+        align-self: center;
+        margin: 0%;
+        width: 100%;
+        height: 20px;
+        background-color: aqua;
+        color: black;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+}
+.buttom3{
+    align-items: center;
+        align-self: center;
+        margin: 0%;
+        width: 100%;
+        height: 20px;
+        background-color: aqua;
+        color: black;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black
+
+}
